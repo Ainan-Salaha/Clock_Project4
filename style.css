@@ -126,12 +126,6 @@ h1{
     overflow: hidden;
     border-radius: 5px;
 }
-/* #main_img {
-    background-image: url(./img/Component\ 30\ –\ 1@2x.png);
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-} */
 
 #main_img2{
     width: 100%;
@@ -161,7 +155,6 @@ h1{
 select{
     width: 50%;
     border: 1px solid gainsboro;
-    /* box-shadow: 2px 2px 10px rgb(204, 204, 204); */
     border-radius: 5px;
     color: gray;
     padding: 10px;

@@ -40,8 +40,8 @@ function time(){
     document.getElementById('hour').innerHTML=hour;
     document.getElementById('min').innerHTML=min;
     document.getElementById('sec').innerHTML=sec;
-
 }
+
 function alarm(){
     var time = new Date();
     var hour = time.getHours();
@@ -57,8 +57,7 @@ function alarm(){
     if(hour<=9){
         hour= '0'+hour;
     }
-
-    // console.log(ok)
+    
     let wake_up = document.getElementById('wake_up');
     let lunch = document.getElementById('lunch');
     let nap = document.getElementById('nap');
